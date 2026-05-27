@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  />
+  <link rel="stylesheet" href="positions.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- NAVIGATION -->
+        <div class="navigation">
+
+            <div class="logo">
+                <span id="hire">Hire</span>
+                <span id="hub">Hub</span>
+            </div>
+
+            <div class="navs">
+                <ul>
+                    <li>Jobs</li>
+                    <li>Companies</li>
+                    <li>About</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+            <div class="theme">
+                  <i class="bi bi-moon" onclick="theme()"></i>
+                  <button class="postjobs-btn" onclick="postjob()">Post Jobs</button>
+            </div>
+        </div>
+
+        <!-- HERO SECTION -->
+            <div class="hero-section">
+                <div class="overlay"></div>
+                <img src="project.jpg" alt="">
+
+                <div class="business-info">
+
+                    <!-- h1 -->
+                    <div class="h1">
+                        <h1>Find Your Dream Job</h1>
+                    </div>
+                    <!-- text title -->
+                    <div class="text-title">
+                        <p>Search thousands of opportunities from top
+                            companies worldwide.
+                            Your next career move starts here.
+                        </p>
+                    </div>
+                    <!-- input-area -->
+                     <div class="input filter">
+                        <label for="job-search" class="sr-only"></label>
+                        <input type="texriest" id="job-search" name="job-search" placeholder="Job title or keyword..." title="Job title or keyword">
+
+                        <label for="location-search" class="sr-only"></label>
+                        <input type="text" id="location-search" name="location-search" placeholder="City, state, country..." title="Location">
+
+                        <label for="job-type" class="sr-only"></label>
+                        <select name="job-type" class="job-type" title="Job type">
+                            <option value="">All Categories</option>
+                        </select>
+
+                        <button class="search-jobs">
+                            Search Jobs
+                        </button>
+                     </div>
+
+                        <div class="filters">
+                            <!-- <i class="bi bi-funnel">Advance filters</i> -->
+                            <i class="bi bi-filter"></i><span>Advance filters</span>
+                        </div>
+                     <!-- Popular roles -->
+                     <div class="popular-role">
+                            <p class="popular">Popular:</p>
+                        <ul class="roles">
+                            <li class="popular-roles">Web Developer</li>
+                            <li class="popular-roles">Project Manager</li>
+                            <li class="popular-roles">Data Scientist</li>
+                            <li class="popular-roles">UX Designer</li>
+                            <li class="popular-roles">DevOps Engineer</li>
+                            <li class="popular-roles">Marketing Lead</li>
+                        </ul>
+                     </div>
+                </div>
+            </div>
+
+            <div class="job-info">
+
+                <div class="jobs">
+                    <h2>2,500+</h2>
+                    <p>Active jobs</p>
+                </div>
+
+                <div class="jobs">
+                    <h2>500+</h2>
+                    <p>Companies</p>
+                </div>
+
+                <div class="jobs">
+                    <h2>50k+</h2>
+                    <p>Successful Hires</p>
+                </div>
+
+                <div class="jobs">
+                    <h2>4.8</h2>
+                    <p>User Rating</p>
+                </div>
+
+                </ul>
+            </div>
+
+            <div class="featured-jobs">
+                <p>Featured Jobs</p>
+                <h1>
+                    Latest Opportunities
+                </h1>
+                <span>Hand Picked Positions from top companies for exceptional talent</span>
+            </div>
+
+        <!-- FOOTER -->
+            <div class="footer"></div>
+    </div>
+
+    <script src="position.js"></script>
+</body>
+</html>
